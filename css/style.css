@@ -1,0 +1,14 @@
+body{
+	padding-top: 56px;
+}
+
+header .container-fluid {
+	max-width: 1280px;
+}
+
+/* JS on scroll */
+.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+/* {border: 1px solid black }
