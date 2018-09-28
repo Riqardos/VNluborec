@@ -6,9 +6,44 @@ header .container-fluid {
 	max-width: 1280px;
 }
 
+
+
+/*gallery*/
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.col-md-3{
+  padding:20px;
+}
+
 /* JS on scroll */
 .scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
-/* {border: 1px solid black }
+/* {border: 1px solid black } */
+
+footer{
+  padding: 20px;
+  margin-top:100px;
+  color:white;
+}
+
+
+
